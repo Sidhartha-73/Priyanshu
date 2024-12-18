@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background.gif);
+    background-position: fix;
+    background-size: cover;
+}
+
+#image {
+    width: 30vw;
+    margin-left: 35vw;
+    margin-top: 15vh;
+    border-radius: 20px;
+    margin-bottom: 15vh;
+}
+
+#speakText {
+    text-align: center;
+    color: skyblue;
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+
+#btn {
+    margin-left: 40vw;
+    min-width: 20vw;
+    width: auto;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: transparent;
+    color: rgb(253, 250, 250);
+    min-height: 5vh;
+    height: auto;
+    font-size: 2vh;
+    transition: 0.3s;
+    padding: 5px;
+    display: none;
+}
+
+#name {
+    width: 20vw;
+    height: 5vh;
+    font-size: 3vh;
+    background-color: transparent;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-left: 40vw;
+    padding-left: 1vw;
+}
+
+#submitbtn {
+    width: 10vw;
+    height: 5vh;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 45vw;
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+
+@media screen and (max-width: 426px) and (min-width: 320px) {
+    #submitbtn {
+        width: 40vw;
+        margin-left: 30vw;
+    }
+
+    #name {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+
+    #image {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
